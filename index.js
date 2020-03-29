@@ -1,8 +1,9 @@
 // Code your solutions in this file
 
 function writeCards(array, occasion){
-  const 
+  let thankYouCards = [];
   for (let i = 0; i < array.length; i++){
-    (`Happy Birthday, ${array[i]}!`)
+    thankYouCards.push(`Happy Birthday, ${array[i]}!`)
   }
+  return thankYouCards
 }
