@@ -8,4 +8,10 @@ function writeCards(array, occasion){
   return thankYouCards
 }
 
-function writeCards()
+function writeCards(array){
+  let i = 0;
+  while (i < array.length){
+    
+    i++;
+  }
+}
