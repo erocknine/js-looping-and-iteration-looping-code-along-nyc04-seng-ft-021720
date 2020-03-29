@@ -11,6 +11,7 @@ function writeCards(array, occasion){
 function countDown(number){
   let counter = number;
   while (0 < number){
-    console.log(number--);
+    console.log(number);
+    number -= 1;
   }
 }
