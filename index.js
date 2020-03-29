@@ -7,3 +7,5 @@ function writeCards(array, occasion){
   }
   return thankYouCards
 }
+
+function 
