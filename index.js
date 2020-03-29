@@ -5,7 +5,7 @@ function writeCards(array, occasion){
   for (let i = 0; i < array.length; i++){
     thankYouCards.push(`Happy Birthday, ${array[i]}!`)
   }
-  return thankYouCards
+  return thankYouCards;
 }
 
 function countDown(number){
@@ -13,4 +13,5 @@ function countDown(number){
     console.log(number);
     number--;
   }
+  console.log(number);
 }
