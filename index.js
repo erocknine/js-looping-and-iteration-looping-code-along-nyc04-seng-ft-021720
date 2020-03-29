@@ -8,10 +8,9 @@ function writeCards(array, occasion){
   return thankYouCards
 }
 
-function writeCards(array){
-  let i = 0;
-  while (i < array.length){
-    
-    i++;
+function countDown(number){
+  let counter = number;
+  while (0 < number){
+    console.log(number--);
   }
 }
